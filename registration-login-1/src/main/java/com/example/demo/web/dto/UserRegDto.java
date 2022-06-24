@@ -6,6 +6,9 @@ public class UserRegDto {
 	private String email;
 	private String password;
 
+	public UserRegDto() {
+	}
+
 	public UserRegDto(String firstName, String lastName, String email, String password) {
 		super();
 		FirstName = firstName;
