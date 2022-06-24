@@ -14,6 +14,10 @@ public class Role {
 	private long Id;
 	private String nameString;
 
+	public Role(String nameString2) {
+		// TODO Auto-generated constructor stub
+	}
+
 	public long getId() {
 		return Id;
 	}
@@ -31,4 +35,3 @@ public class Role {
 	}
 
 }
-// adding comments
